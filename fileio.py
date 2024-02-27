@@ -20,16 +20,23 @@ in this we hv two mode
 2 a = it is appened mode it adds to the  file in last 
 
 '''
-g = open("sample.txt","w")
-g.write(" hardik is a bad boy ")
+# g = open("sample.txt","w")
+# g.write(" hardik is a bad boy ")
 
-g = open("sample.txt", "a")
-g.write("\nbut hardik is superchill and good looking handsome guy")
+# g = open("sample.txt", "a")
+# g.write("\nbut hardik is superchill and good looking handsome guy")
 
 
 # if we open file in w or a mode and the file not exit pyhton will create that file
 
-s = open("h.txt","w")
+# s = open("h.txt","w")
+
+
+
+# WITH METHID
+
+with open("sample.txt","r") as w:
+    print(w.read())
 
 
 
