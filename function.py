@@ -19,12 +19,18 @@ def print_list(list):
 # print_list(cities)
 
 
-n = int(input("enter number to calculate factorial : "))
-# n = 5
-def factorial(n):
-    fact = 1
-    for i in range(1,n+1):
-        fact *= i 
-    print(fact) 
+# n = int(input("enter number to calculate factorial : "))
+# # n = 5
+# def factorial(n):
+#     fact = 1
+#     for i in range(1,n+1):
+#         fact *= i 
+#     print(fact) 
 
-factorial(n)
+# factorial(n)
+
+def convert(usd_val):
+    inr_val = usd_val * 83
+    print(usd_val , "USD = " , inr_val , "INR ")
+    
+convert(7)
